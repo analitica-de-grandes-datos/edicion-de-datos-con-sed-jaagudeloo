@@ -52,4 +52,4 @@ s/;N/;\\N/g;
 s/;;/;\\N;/g;
 s/;[^M]$/;\\N/g;
 s/,/./g;
-s/;/,/g' data.csv > output.csv
+s/;/,/g'
