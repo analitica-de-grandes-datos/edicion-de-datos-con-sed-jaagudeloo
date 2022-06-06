@@ -50,6 +50,6 @@ s/b/B/g;
 s/c/C/g;
 s/;N/;\\N/g;
 s/;;/;\\N;/g;
-s/;[^M]$/;\\N/g;
+s/N;[^M]$/N;\\\N/g;
 s/,/./g;
-s/;/,/g' data.csv
+s/;/,/g' data.csv > output.csv
